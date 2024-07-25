@@ -1,0 +1,156 @@
+.nav-image img{
+    width: 200px;
+    height: 60px;
+}
+.nav-options{
+    display: flex;
+    gap: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.banner-text h2{
+    font-size: 4rem;
+    text-align: left;
+}
+.banner-text p{
+    font-size: 1rem;
+    text-align: left;
+   
+}
+ .btn-banner{
+    text-align: center;
+    background: rgb(66, 106, 5);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-text, .btn-banner{
+    font-size: 1rem;
+    text-align: left;
+}
+.buy-now{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.woman-jacket-cards1 img{
+    width: 200px;
+    height: 200px;
+}
+.woman-jacket h3{
+    text-align:center;
+}
+.woman-jacket-cards2 img{
+    width: 200px;
+    height: 200px;
+}
+.woman-jacket-cards3 img{
+    width: 200px;
+    height: 200px;
+}
+.woman-jacket-cards{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 45px;
+}
+.man-jacket h3{
+    text-align: center;
+}
+.man-jacket{
+    display: flex;
+    gap: 40px;
+    justify-content: center; 
+}
+.cards-image img{
+    width: 550px;
+    height: 300px;
+}
+.card1,.card2,.card3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card1-image img{
+    width: 90px;
+    height: 60px;
+}
+.find-products{
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+.woman-jacket{
+    margin: 0 auto;
+    margin-top: 60px;
+   
+}
+.man-jacket{
+    margin: 0 auto;
+    margin-top: 70px;
+    
+}
+
+
+/* responsive */
+@media screen and (max-width:575px) {
+    .nav-bar{
+        flex-direction: column;
+        margin-right: 100px;
+        width: 185px;
+        height: 80px;
+    }
+    .nav-options{
+        width: 60px;
+        height: 40px; 
+        margin-right: 120px; 
+        gap: 10px; 
+    }
+    .banner-container{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .banner-text h2{
+        font-size: 2rem;
+        text-align: left;
+        margin-right: 130px;
+    }
+    .banner-text p{
+        font-size: 12px;
+        text-align: left;
+        margin-right: 130px;
+       
+    }
+    .banner-image img{
+        width: 200px;
+        height: 200px;
+        margin-right: 190px;
+    }
+    .woman-jacket-cards{
+        flex-direction: column;
+    }
+    .man-jacket{
+        flex-direction: column;
+    }
+    .find-products{
+        flex-direction: column;
+    } 
+    .card1-image{
+        width: 100px;
+        height: 130px;
+    }
+}
